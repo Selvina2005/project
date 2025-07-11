@@ -1,0 +1,73 @@
+.rotate-img {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      object-fit: cover;
+      animation: rotate 20s linear infinite;
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    
+    .hero-section{
+      padding: 80px 0;
+      background-color: #CC5500;
+      font-family: 'Poppins', 'Helvetica Neue', sans-serif
+    }
+
+    .hero-text h1, .team-section h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    font-family: 'Poppins', 'Helvetica Neue', sans-serif
+    }
+
+
+    .hero-text p, .team-section p, .story-section p, .section-informasi p, .section-informasi h3 {
+      color: black;
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: 'Poppins', 'Helvetica Neue', sans-serif
+    }
+
+
+  .card {
+    box-shadow: 0 4px 12px rgba(23, 23, 23, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    box-shadow: 0 15px 30px rgba(137, 137, 137, 0.3);
+    transform: translateY(-5px);
+  }
+
+  .team-section, .story-section {
+    background-color: #CC5500;
+    color: black;
+    padding: 60px 20px;
+    border-radius: 15px;
+  }
+
+  .team-section .card {
+    background-color: rgb(230, 216, 199);
+    color: black;
+    border: none;
+  }
+
+  .team-section .card-title {
+    color: black;
+  }
+
+  .black-section {
+    background-color:#F5F5DC;
+  }

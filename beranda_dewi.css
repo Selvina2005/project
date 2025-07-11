@@ -1,0 +1,73 @@
+body {
+  background-color:#F5F5DC;
+  background-repeat: repeat;
+  background-size: contain;
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+}
+.about-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-size: cover;
+  width: 100;
+  height: max-content;
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+}
+.highlight {
+  color: #e53935;
+  font-weight: bold;
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+}
+
+.section-tag {
+  padding: 6px 12px;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+}
+.about-menu {
+  text-align: center;
+  padding: 60px 20px;
+  background-size: cover;
+  width: 100;
+  height: max-content;
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+
+}
+.menu-tag {
+  text-align: center;
+  padding: 6px 12px;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+}
+.about-catring {
+  text-align: center;
+  padding: 60px 20px;
+  background-size: cover;
+  width: 100;
+  height: max-content;
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+
+}
+.catring-tag {
+  text-align: center;
+  padding: 6px 12px;
+  border-radius: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+}
+.border-dark{
+  background-color:  #e4803a ;
+}
+.card-body{
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+}
+.h2{
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+}
+.span{
+  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+}
